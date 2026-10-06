@@ -1,0 +1,34 @@
+{
+  "name": "eu-electricity-prices-efficient-appliances",
+  "title": "EU household electricity prices & most energy-efficient appliances",
+  "homepage": "https://earlydex.com/",
+  "version": "2026-10-06",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eurostat nrg_pc_204",
+      "path": "https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_204/default/table"
+    },
+    {
+      "title": "EPREL (European Commission)",
+      "path": "https://eprel.ec.europa.eu/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "electricity_prices_eu",
+      "path": "data/electricity_prices_eu.csv",
+      "format": "csv"
+    },
+    {
+      "name": "efficient_appliances",
+      "path": "data/efficient_appliances.csv",
+      "format": "csv"
+    }
+  ]
+}
