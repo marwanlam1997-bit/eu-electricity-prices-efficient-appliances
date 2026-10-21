@@ -8,6 +8,7 @@ authors:
 version: "2026-10-21"
 date-released: "2026-10-21"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23540271
 url: "https://earlydex.com/"
 repository-code: "https://github.com/marwanlam1997-bit/eu-electricity-prices-efficient-appliances"
 keywords:

@@ -1,6 +1,9 @@
 # EU household electricity prices & most energy-efficient appliances
 
-Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23540271.svg)](https://doi.org/10.5281/zenodo.23540271)
+
+Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly. Also on
+[Zenodo](https://doi.org/10.5281/zenodo.23540271) (archived release of each version) and [Kaggle](https://www.kaggle.com/datasets/marouanelamsalek/eu-electricity-prices-and-efficient-appliances).
 
 - `data/electricity_prices_eu.csv`: average household electricity price in the 27 EU countries
   (€/kWh, all taxes included, Eurostat 2025-S2).
@@ -91,8 +94,8 @@ Calculator for any appliance and country: [earlydex.com](https://earlydex.com/de
 
 The data compilation is released under **CC BY 4.0**. Please cite:
 
-> EarlyDex, *EU household electricity prices & most energy-efficient appliances*, https://earlydex.com/ (data:
-> Eurostat; EU energy label database EPREL, European Commission).
+> EarlyDex, *EU household electricity prices and energy-efficient appliances (EarlyDex open data)*,
+> https://doi.org/10.5281/zenodo.23540271 (data: Eurostat; EU energy label database EPREL, European Commission).
 
 Sources: Eurostat (CC BY 4.0) · EPREL, European Product Registry for Energy Labelling (European Commission).
 EarlyDex is not affiliated with the European Commission or Eurostat.
