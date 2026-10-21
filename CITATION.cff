@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below (CC BY 4.0)."
+type: dataset
+title: "EU household electricity prices and energy-efficient appliances (EarlyDex open data)"
+authors:
+  - name: EarlyDex
+    website: "https://earlydex.com/"
+version: "2026-10-21"
+date-released: "2026-10-21"
+license: CC-BY-4.0
+url: "https://earlydex.com/"
+repository-code: "https://github.com/marwanlam1997-bit/eu-electricity-prices-efficient-appliances"
+keywords:
+  - electricity prices
+  - energy label
+  - EPREL
+  - Eurostat
+  - energy efficiency
+  - household appliances
+  - European Union
+  - washing machines
+  - dishwashers
+  - tumble dryers
+  - refrigerators

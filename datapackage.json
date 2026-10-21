@@ -2,7 +2,7 @@
   "name": "eu-electricity-prices-efficient-appliances",
   "title": "EU household electricity prices & most energy-efficient appliances",
   "homepage": "https://earlydex.com/",
-  "version": "2026-10-06",
+  "version": "2026-10-21",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -28,6 +28,16 @@
     {
       "name": "efficient_appliances",
       "path": "data/efficient_appliances.csv",
+      "format": "csv"
+    },
+    {
+      "name": "report_2026_cost_by_country",
+      "path": "data/report_2026_cost_by_country.csv",
+      "format": "csv"
+    },
+    {
+      "name": "report_2026_models_by_class",
+      "path": "data/report_2026_models_by_class.csv",
       "format": "csv"
     }
   ]

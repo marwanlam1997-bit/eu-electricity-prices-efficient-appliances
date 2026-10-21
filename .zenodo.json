@@ -1,0 +1,37 @@
+{
+  "title": "EU household electricity prices and energy-efficient appliances (EarlyDex open data)",
+  "description": "Open data compiled by EarlyDex (https://earlydex.com/): average household electricity prices in the 27 EU countries (Eurostat nrg_pc_204, all taxes included), the most energy-efficient fridge-freezers, refrigerators, washing machines, heat-pump tumble dryers and dishwashers ranked from the EU energy label database EPREL (European Commission), and the tables of the EarlyDex report 2026: share of energy classes among all registered washing machines, dishwashers and tumble dryers, and their yearly electricity cost in each EU country. Updated monthly.",
+  "upload_type": "dataset",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "EarlyDex"
+    }
+  ],
+  "keywords": [
+    "electricity prices",
+    "energy label",
+    "EPREL",
+    "Eurostat",
+    "energy efficiency",
+    "household appliances",
+    "European Union",
+    "washing machines",
+    "dishwashers",
+    "tumble dryers",
+    "refrigerators"
+  ],
+  "version": "2026-10-21",
+  "related_identifiers": [
+    {
+      "identifier": "https://earlydex.com/fr/rapport-electromenager-electricite-ue/",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://earlydex.com/de/bericht-stromkosten-haushaltsgeraete-eu/",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-report"
+    }
+  ]
+}

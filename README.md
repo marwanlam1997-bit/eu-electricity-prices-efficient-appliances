@@ -4,11 +4,27 @@ Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly.
 
 - `data/electricity_prices_eu.csv`: average household electricity price in the 27 EU countries
   (€/kWh, all taxes included, Eurostat 2025-S2).
-- `data/efficient_appliances.csv`: 2,617 fridge-freezers, refrigerators, washing machines and heat-pump
-  tumble dryers from the official EU energy label database (EPREL), ranked by energy efficiency index, with
+- `data/efficient_appliances.csv`: 3,894 fridge-freezers, refrigerators, washing machines, heat-pump
+  tumble dryers and dishwashers from the official EU energy label database (EPREL), ranked by energy efficiency index, with
   the annual electricity cost in Germany and France.
+- `data/report_2026_cost_by_country.csv` and `data/report_2026_models_by_class.csv`: the tables of the
+  [EarlyDex report 2026](https://earlydex.com/fr/rapport-electromenager-electricite-ue/) (all 36,894 washing
+  machines, dishwashers and tumble dryers registered in EPREL: share of each energy class and technology, same-size
+  medians, and the yearly cost of three typical appliances in each EU country).
 
-Last update: 2026-10-06.
+Last update: 2026-10-21.
+
+## Report 2026: key figures
+
+- The household price per kWh differs 3.7× across the EU, from Hungary (0.108 €) to Ireland (0.404 €) (Eurostat 2025-S2).
+- 62 % of the washing machines registered in EPREL are energy class A, against 12 % of dishwashers and
+  4 % of tumble dryers.
+- At 8 kg, a heat-pump dryer uses a median 116 kWh per 100 cycles, against 307 for a conventional condenser dryer.
+- Choosing class A instead of a typical model for the three appliances saves 49 € a year in Germany and
+  32 € in France.
+
+Full report: [Français](https://earlydex.com/fr/rapport-electromenager-electricite-ue/) ·
+[Deutsch](https://earlydex.com/de/bericht-stromkosten-haushaltsgeraete-eu/).
 
 ## Electricity prices (2025-S2)
 
@@ -48,8 +64,9 @@ Last update: 2026-10-06.
 |---|---|---|---|---|
 | fridge freezer | [LG Electronics GBBSE261EV](https://earlydex.com/de/kuehl-gefrierkombination/lg-electronics-gbbse261ev-2801394/) | A | 73 kWh/year | 28.24 € |
 | refrigerator | [Liebherr RBa30 425i_091624051](https://earlydex.com/de/kuehlschrank/liebherr-rba30-425i-091624051-1588553/) | A | 46 kWh/year | 17.80 € |
-| washing machine | [WHIRLPOOL WPM 912W ADS BE](https://earlydex.com/de/waschmaschine/whirlpool-wpm-912w-ads-be-2404815/) | A | 20 kWh/100 cycles (eco 40-60) | 16.10 € |
+| washing machine | [Whirlpool WPM 912W ADS BE](https://earlydex.com/de/waschmaschine/whirlpool-wpm-912w-ads-be-2404815/) | A | 20 kWh/100 cycles (eco 40-60) | 16.10 € |
 | heat pump tumble dryer | [AEG TR9XW80180 916900702](https://earlydex.com/de/waermepumpentrockner/aeg-tr9xw80180-916900702-2557560/) | A | 65 kWh/100 cycles | 39.23 € |
+| dishwasher | [Bauknecht BK5IA5015BT1LS 7664597377](https://earlydex.com/de/geschirrspueler/bauknecht-bk5ia5015bt1ls-7664597377-2525912/) | A | 28 kWh/100 cycles (eco) | 28.17 € |
 
 Full rankings with filters by brand and size: [earlydex.com/de/bestenlisten](https://earlydex.com/de/bestenlisten/)
 (German) · [earlydex.com/fr/classements](https://earlydex.com/fr/classements/) (French).
@@ -64,7 +81,7 @@ Full rankings with filters by brand and size: [earlydex.com/de/bestenlisten](htt
   sister brand) are grouped into one row; `identical_references` counts the others.
 - **Ranking**: by EEI (lower is better), then label consumption, then programme duration, then noise.
 - **Annual cost**: label consumption × the country's average price. Washing machines assume 4 cycles per week,
-  heat-pump dryers 3 cycles per week; refrigerating appliances use the label's annual value.
+  dishwashers 5, tumble dryers 3; refrigerating appliances use the label's annual value.
 - `earlydex_page` is filled for the models that have their own page on EarlyDex; every row links to its
   official EPREL record.
 
