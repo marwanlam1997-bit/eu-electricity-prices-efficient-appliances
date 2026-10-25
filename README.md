@@ -6,7 +6,7 @@ Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly. 
 [Zenodo](https://doi.org/10.5281/zenodo.23540271) (archived release of each version) and [Kaggle](https://www.kaggle.com/datasets/marouanelamsalek/eu-electricity-prices-and-efficient-appliances).
 
 - `data/electricity_prices_eu.csv`: average household electricity price in the 27 EU countries
-  (€/kWh, all taxes included, Eurostat 2025-S2).
+  (€/kWh, all taxes included, Eurostat 2026-S1).
 - `data/efficient_appliances.csv`: 3,894 fridge-freezers, refrigerators, washing machines, heat-pump
   tumble dryers and dishwashers from the official EU energy label database (EPREL), ranked by energy efficiency index, with
   the annual electricity cost in Germany and France.
@@ -15,61 +15,61 @@ Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly. 
   machines, dishwashers and tumble dryers registered in EPREL: share of each energy class and technology, same-size
   medians, and the yearly cost of three typical appliances in each EU country).
 
-Last update: 2026-10-21.
+Last update: 2026-10-25.
 
 ## Report 2026: key figures
 
-- The household price per kWh differs 3.7× across the EU, from Hungary (0.108 €) to Ireland (0.404 €) (Eurostat 2025-S2).
+- The household price per kWh differs 3.4× across the EU, from Hungary (0.114 €) to Ireland (0.387 €) (Eurostat 2026-S1).
 - 62 % of the washing machines registered in EPREL are energy class A, against 12 % of dishwashers and
   4 % of tumble dryers.
 - At 8 kg, a heat-pump dryer uses a median 116 kWh per 100 cycles, against 307 for a conventional condenser dryer.
-- Choosing class A instead of a typical model for the three appliances saves 49 € a year in Germany and
-  32 € in France.
+- Choosing class A instead of a typical model for the three appliances saves 46 € a year in Germany and
+  31 € in France.
 
 Full report: [Français](https://earlydex.com/fr/rapport-electromenager-electricite-ue/) ·
 [Deutsch](https://earlydex.com/de/bericht-stromkosten-haushaltsgeraete-eu/).
 
-## Electricity prices (2025-S2)
+## Electricity prices (2026-S1)
 
 | Country | €/kWh |
 |---|---|
-| Ireland | 0.4042 |
-| Germany | 0.3869 |
-| Belgium | 0.3499 |
-| Denmark | 0.3312 |
-| Austria | 0.3272 |
-| Czechia | 0.3217 |
-| Italy | 0.2966 |
-| Romania | 0.2893 |
-| Cyprus | 0.2774 |
-| Sweden | 0.2711 |
-| Poland | 0.2709 |
-| Spain | 0.2669 |
-| Luxembourg | 0.2665 |
-| France | 0.2561 |
-| Netherlands | 0.2558 |
-| Latvia | 0.2452 |
-| Portugal | 0.2435 |
-| Greece | 0.2381 |
-| Estonia | 0.2303 |
-| Finland | 0.2254 |
-| Slovenia | 0.2121 |
-| Lithuania | 0.1955 |
-| Slovakia | 0.1853 |
-| Croatia | 0.1658 |
-| Bulgaria | 0.1355 |
-| Malta | 0.1282 |
-| Hungary | 0.1082 |
+| Ireland | 0.3871 |
+| Germany | 0.3618 |
+| Belgium | 0.3575 |
+| Austria | 0.3260 |
+| Italy | 0.3142 |
+| Sweden | 0.3062 |
+| Poland | 0.2999 |
+| Czechia | 0.2884 |
+| Romania | 0.2836 |
+| Finland | 0.2694 |
+| Cyprus | 0.2688 |
+| Spain | 0.2509 |
+| France | 0.2485 |
+| Netherlands | 0.2440 |
+| Latvia | 0.2415 |
+| Greece | 0.2401 |
+| Denmark | 0.2375 |
+| Portugal | 0.2367 |
+| Lithuania | 0.2162 |
+| Estonia | 0.2118 |
+| Slovenia | 0.2118 |
+| Luxembourg | 0.2023 |
+| Slovakia | 0.1985 |
+| Croatia | 0.1816 |
+| Bulgaria | 0.1341 |
+| Malta | 0.1268 |
+| Hungary | 0.1139 |
 
 ## Most efficient appliances (rank 1 in each category)
 
 | Category | Model | Class | Label consumption | Cost per year (DE) |
 |---|---|---|---|---|
-| fridge freezer | [LG Electronics GBBSE261EV](https://earlydex.com/de/kuehl-gefrierkombination/lg-electronics-gbbse261ev-2801394/) | A | 73 kWh/year | 28.24 € |
-| refrigerator | [Liebherr RBa30 425i_091624051](https://earlydex.com/de/kuehlschrank/liebherr-rba30-425i-091624051-1588553/) | A | 46 kWh/year | 17.80 € |
-| washing machine | [Whirlpool WPM 912W ADS BE](https://earlydex.com/de/waschmaschine/whirlpool-wpm-912w-ads-be-2404815/) | A | 20 kWh/100 cycles (eco 40-60) | 16.10 € |
-| heat pump tumble dryer | [AEG TR9XW80180 916900702](https://earlydex.com/de/waermepumpentrockner/aeg-tr9xw80180-916900702-2557560/) | A | 65 kWh/100 cycles | 39.23 € |
-| dishwasher | [Bauknecht BK5IA5015BT1LS 7664597377](https://earlydex.com/de/geschirrspueler/bauknecht-bk5ia5015bt1ls-7664597377-2525912/) | A | 28 kWh/100 cycles (eco) | 28.17 € |
+| fridge freezer | [LG Electronics GBBSE261EV](https://earlydex.com/de/kuehl-gefrierkombination/lg-electronics-gbbse261ev-2801394/) | A | 73 kWh/year | 26.41 € |
+| refrigerator | [Liebherr RBa30 425i_091624051](https://earlydex.com/de/kuehlschrank/liebherr-rba30-425i-091624051-1588553/) | A | 46 kWh/year | 16.64 € |
+| washing machine | [Whirlpool WPM 912W ADS BE](https://earlydex.com/de/waschmaschine/whirlpool-wpm-912w-ads-be-2404815/) | A | 20 kWh/100 cycles (eco 40-60) | 15.05 € |
+| heat pump tumble dryer | [AEG TR9XW80180 916900702](https://earlydex.com/de/waermepumpentrockner/aeg-tr9xw80180-916900702-2557560/) | A | 65 kWh/100 cycles | 36.69 € |
+| dishwasher | [Bauknecht BK5IA5015BT1LS 7664597377](https://earlydex.com/de/geschirrspueler/bauknecht-bk5ia5015bt1ls-7664597377-2525912/) | A | 28 kWh/100 cycles (eco) | 26.34 € |
 
 Full rankings with filters by brand and size: [earlydex.com/de/bestenlisten](https://earlydex.com/de/bestenlisten/)
 (German) · [earlydex.com/fr/classements](https://earlydex.com/fr/classements/) (French).
