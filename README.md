@@ -2,6 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23540271.svg)](https://doi.org/10.5281/zenodo.23540271)
 
+How much does a fridge, washing machine, dryer or dishwasher cost to run in each EU country, and which models
+use the least electricity? This repository answers both with open CSV files built from official sources:
+**Eurostat** household electricity prices and the **EU energy label database (EPREL)**.
+
 Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly. Also on
 [Zenodo](https://doi.org/10.5281/zenodo.23540271) (archived release of each version) and [Kaggle](https://www.kaggle.com/datasets/marouanelamsalek/eu-electricity-prices-and-efficient-appliances).
 
@@ -16,6 +20,30 @@ Open data maintained by **[EarlyDex](https://earlydex.com/)**, updated monthly. 
   medians, and the yearly cost of three typical appliances in each EU country).
 
 Last update: 2026-11-02.
+
+## Quick start
+
+```python
+import pandas as pd
+
+base = "https://raw.githubusercontent.com/marwanlam1997-bit/eu-electricity-prices-efficient-appliances/main/data/"
+prices = pd.read_csv(base + "electricity_prices_eu.csv")
+appliances = pd.read_csv(base + "efficient_appliances.csv")
+print(appliances[appliances["rank"] <= 3][["category", "brand", "model", "energy_class", "annual_cost_de_eur"]])
+```
+
+Typical uses: comparing running costs across EU countries, energy-label research, consumer or journalism
+articles on household electricity, and teaching datasets.
+
+## Free tools built on this data
+
+- Appliance electricity cost calculator, any model and EU country:
+  [Deutsch](https://earlydex.com/de/stromkosten-geraet/) · [Français](https://earlydex.com/fr/cout-electricite-appareil/)
+- Rankings of the most efficient models by category, brand and size:
+  [Deutsch](https://earlydex.com/de/bestenlisten/) · [Français](https://earlydex.com/fr/classements/)
+- Report 2026 on 43,000 washing machines, dishwashers and dryers:
+  [Deutsch](https://earlydex.com/de/bericht-stromkosten-haushaltsgeraete-eu/) ·
+  [Français](https://earlydex.com/fr/rapport-electromenager-electricite-ue/)
 
 ## Report 2026: key figures
 
